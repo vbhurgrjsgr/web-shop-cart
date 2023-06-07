@@ -1,0 +1,169 @@
+.deleteBtn {
+    position: relative;
+    width: 100px;
+    height: 15px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    color: #000000;
+    font-size: 10px;
+   top: -15px;
+   left: 30px;
+
+}
+
+/* .count {
+    position: absolute;
+    font-size: 10px;
+    width: 37px;
+    height: 13px;
+    top: 26px;
+    left: 71px;
+    text-align: center;
+    background: #D9D9D9;
+    border-radius: 2px;
+} */
+
+/* .countInput {
+    position: absolute;
+    font-size: 10px;
+    width: 37px;
+    height: 13px;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    background: #D9D9D9;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+     outline: none;
+} */
+
+/* .Increment {
+    position: relative;
+    width:12px;
+    height:13px;
+    border: none;
+    border-radius: 2px;
+    left: -7px;
+    top: 1px;
+   
+    padding-top: 5px;
+    padding-right:5px;
+}
+
+
+.Decrement {
+    position: relative;
+    width:10px;
+    height:12px;
+    border: none;
+    border-radius: 2px;
+    right: -7px;
+    top: 0px;
+    
+} */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
+/* not necessary*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.count {
+  position: absolute;
+  margin: auto;
+  font-size: 20px;
+  top: 26px;
+  left: 65px;
+  width: 45px;
+  height: 14px;
+  background: #D9D9D9;
+  border-radius: 2px;
+}
+.Decrement{
+    position: absolute;
+    background-image: url('/Users/artem/Downloads/Group 2.svg');
+    cursor: pointer; 
+    width: 9px;
+    height: 14px;
+    box-sizing: border-box;
+    border:none;
+    background: #D9D9D9;
+    border-radius: 2px;
+    right: 2px;
+    top:0px;
+}
+.Increment {
+  position: absolute;
+  background-image: url('/Users/artem/Downloads/Group 1.svg');
+  cursor: pointer; 
+  width: 9px;
+  height: 14px;
+  box-sizing: border-box;
+  border:none;
+  background: #D9D9D9;
+  border-radius: 2px;
+  left: 2px;
+  top:0px;
+
+}
+.countInput {
+  position: absolute;
+  border:none;
+  width: 21px;
+  height: 13px;
+  background-color: #D9D9D9;
+  left: 12px;
+  align-items: center;
+  color: black;
+  font-size:10px ;
+  padding-left: 8px;
+  padding-top: 1px;
+}
+
+.TotlaPriceInComponent {
+  position: absolute;
+  width: 49px;
+  height: 22px;
+  font-size: 15px;
+  color: #FF6B00;
+  left: 72px;
+  top: 1px;
+}
+
+
+.TotlaPrice {
+  position: absolute;
+  width: 160px;
+  height: 22px;
+  left: 15px;
+  top: 239px;
+}
+
+.TotlaPriceLine {
+  position: absolute;
+  width: 160px;
+  height: 0px;
+  bottom: 0px;
+  border: 1px solid #000000;
+}
+
+.TotalPriceText {
+  position: absolute;
+  width: 70px;
+  height: 25px;
+  left: 0px;
+  top: 3px;
+  color: black;
+  font-weight: unset ;
+}
+

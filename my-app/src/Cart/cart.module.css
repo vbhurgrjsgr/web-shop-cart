@@ -1,0 +1,63 @@
+.Cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: absolute;
+    width: 190px;
+    height: 275px;
+    left: 628px;
+    top: 372px;
+    
+    background: #FFFFFF;
+  }
+
+  .delivery{
+    position: relative;
+    font-size: 15px;
+    font-weight: lighter ;
+    left: 0px;
+    top:0px;
+    margin: 0;
+  }
+
+  .deliverySell {
+    position: relative;
+    left:70px;
+    top:-19px;
+    margin: 0;
+    font-size: 15px;
+    color: #21BA31;
+    
+  }
+
+  .deliveryGroup {
+    position: relative;
+    width: 141px;
+    height: 35px;
+    left:-10px;
+    margin-top: 5px;
+    top: 35px;
+  }
+
+  .smallText {
+    position: absolute;
+    left: 0px;
+    top: 21px;
+    font-size: 10px;
+    font-weight: lighter ;
+    margin: 0;
+  }
+
+  .Line {
+    position: absolute;
+    width: 160px;
+    height: 1.5px;
+    background-image: url('/Users/artem/Downloads/Line 3.svg') ;
+    top: 97px;
+    
+ }
+
+
+
+

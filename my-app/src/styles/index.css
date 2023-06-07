@@ -1,0 +1,30 @@
+html[data-roll ='fil'] {
+    --background: url('/Users/artem/Downloads/филадельфия.png');
+    --roll-one-text: font-size: 15px;
+    --roll-one-text-position-left: 50px;
+    --roll-one-text-position-top: 150px;
+}
+
+html[data-roll ='ygr'] {
+    --background: url('/Users/artem/Downloads/угрь.png');
+
+    --App-background-color:#424242;
+    
+    --post-background-color: #D7D7D7;
+    --post-text-color:#424242;
+
+    --button-del-color:#D7D7D7;
+    --todo-list-color:#2B445B ;
+    --todo-list-background:#648BAD; 
+    --button-color:#2B445B ;
+    --button-background:#648BAD;
+
+    --search-color: #648BAD;
+    --search-background:#2B445B;
+
+    --add-color: #2B445B;
+    --add-background:#648BAD;
+    
+    --get-color: #648BAD;
+    --get-background:#2B445B;
+}
